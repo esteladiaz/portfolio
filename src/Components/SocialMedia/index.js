@@ -1,15 +1,19 @@
 import React from 'react'
-import { SocialMediaContainer, SocialMediaIcon } from './style'
+import { SocialMediaContainer } from './style'
+import Email from '../Icons/Email'
+import GitHub from '../Icons/GitHub'
+import Instagram from '../Icons/Instagram'
 import LinkedIn from '../Icons/LinkedIn'
+import Twitter from '../Icons/Twitter'
 
 const SocialMedia = () => {
     return (
         <SocialMediaContainer>
-            <LinkedIn />
-            <SocialMediaIcon rel="noopener noreferrer" href="//github.com/esteladiaz" target="_blank">GitHub</SocialMediaIcon>
-            <SocialMediaIcon rel="noopener noreferrer" href="//www.instagram.com/diazela" target="_blank">Instagram</SocialMediaIcon>
-            <SocialMediaIcon rel="noopener noreferrer" href="//twitter.com/_diazela" target="_blank">Twitter</SocialMediaIcon>
-            <SocialMediaIcon href="mailto:estela@diazela.com">Email</SocialMediaIcon>
+            <Email href="mailto:estela@diazela.com" />
+            <GitHub href="//github.com/esteladiaz" />
+            <Instagram href="//www.instagram.com/diazela" />
+            <LinkedIn href="//linkedin.com/in/diazestela" />
+            <Twitter href="//twitter.com/_diazela" />
         </SocialMediaContainer>
     )
 }
