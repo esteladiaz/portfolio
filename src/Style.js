@@ -9,7 +9,14 @@ export const colors = {
     linkColor: '#8c7bfc',
     linkHoverColor: '#da60f5',
     linkActive: 'purple',
-    textColor: '#fff'
+    textColor: '#fff',
+    schemeRed: '#fc7b7b',
+    schemeOrange: '#fcb47b',
+    schemeYellow: '#fcfc7b',
+    schemeGreen: '#7bfc94',
+    schemeBlue: '#7bc3fc',
+    schemeIndigo: '#7b7bfc',
+    schemeViolet: '#bc7bfc'
 }
 
 export const GlobalStyle = createGlobalStyle`
