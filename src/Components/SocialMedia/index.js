@@ -9,11 +9,11 @@ import Twitter from '../Icons/Twitter'
 const SocialMedia = () => {
     return (
         <SocialMediaContainer>
-            <Email href="mailto:estela@diazela.com" />
-            <GitHub href="//github.com/esteladiaz" />
-            <Instagram href="//www.instagram.com/diazela" />
-            <LinkedIn href="//linkedin.com/in/diazestela" />
-            <Twitter href="//twitter.com/_diazela" />
+            <Email link="mailto:estela@diazela.com" />
+            <GitHub link="//github.com/esteladiaz" />
+            <Instagram link="//www.instagram.com/diazela" />
+            <LinkedIn link="//linkedin.com/in/diazestela" />
+            <Twitter link="//twitter.com/_diazela" />
         </SocialMediaContainer>
     )
 }
