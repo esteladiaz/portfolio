@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle, css } from 'styled-components'
 
 export const colors = {
     backgroundColor: '#232323',
@@ -19,7 +19,27 @@ export const colors = {
     schemeViolet: '#bc7bfc'
 }
 
+const fontStyles = css`
+    h1, h2, h3, h4, h5, h6, p, a {
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 0;
+    }
+    p {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+`
+
 export const GlobalStyle = createGlobalStyle`
+    ${fontStyles}
     a {
         color: ${colors.linkColor};
         text-decoration: none;
