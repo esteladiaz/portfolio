@@ -6,7 +6,6 @@ export default class Header extends Component {
         return (
             <header>
                 <h1>Hi, I'm Estela.</h1>
-                <h2>I'm a Software Engineer.</h2>
                 <p>I prefer dark mode, but if <Link text='light' /> is easier on your eyes, <Link src='google.com' text={'click here'} emoji={'☀️'} /></p>
             </header>
         )
