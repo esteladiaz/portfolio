@@ -1,11 +1,12 @@
 import React from 'react'
+import { LinkWrapper } from './style'
 
 const Link = props => {
     const { emoji, src, text } = props
     return (
-        <a href={src}>
+        <LinkWrapper href={src}>
             {text}{emoji && ' ' + emoji}
-        </a>
+        </LinkWrapper>
     )
 }
 
