@@ -1,9 +1,7 @@
 import React from 'react'
 import { Svg } from './Style'
-import { size } from '../../Variables'
 
 const LinkedIn = props => {
-    console.log(size, '<===')
     const { link } = props
     return (
         <a href={link} rel="noopener noreferrer"  target="_blank">
