@@ -20,12 +20,11 @@ export const colors = {
 }
 
 const cometStyle = css`
-    color: ${colors.linkColor};
-    display: inline-block;
-    font-weight: 400;
-    padding: 0 1px;
     position: relative;
     text-decoration: none;
+    display: inline-block;
+    color: ${colors.linkColor};
+    padding: 0 1px;
     transition: color ease 0.3s;
 
     &::before, &::after {
@@ -33,7 +32,7 @@ const cometStyle = css`
         position: absolute;
         background-color: ${colors.linkColor};
         z-index: -1;
-        height: 5%;
+        height: 3px;
     }
 
     &::before {
@@ -41,23 +40,30 @@ const cometStyle = css`
         left: 0;
         bottom: 0;
         transition: width ease 0.4s;
-        &::after {
-            width: 100%;
-            left: 0;
-            bottom: 0;
-            transition: all ease 0.6s;
-        }
-    &:hover {
-    &::before {
-        width: 100%;
     }
 
+    &::after {
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        transition: all ease 0.6s;
+    }
+
+    &:hover {
+        color: ${colors.linkHoverColor};
+
+    &::before {
+        background-color: ${colors.linkHoverColor};
+        width: 100%;
+    }
+    
     &::after {
             left: 100%;
             width: 0%;
             transition: all ease 0.2s;
-        }
+        }   
     }
+
 `
 
 export const LinkWrapper = styled.a`
