@@ -23,7 +23,7 @@ export const SocialMediaContainer = styled.div`
     a {
         background: ${getBackgroundColor(colors)};
         margin-top: 1rem;
-        &:first-child) {
+        &:first-child {
             margin-top: 0;
         }
     }
