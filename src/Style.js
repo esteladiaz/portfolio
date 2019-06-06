@@ -34,20 +34,14 @@ const fontStyles = css`
     }
     p {
         font-size: 1.5rem;
-        font-weight: 400;
+        font-weight: 300;
     }
 `
 
 export const GlobalStyle = createGlobalStyle`
     ${fontStyles}
     a {
-        color: ${colors.linkColor};
         text-decoration: none;
-        transition: 150ms;
-        &:hover {
-            color: ${colors.linkHoverColor};
-            transform: color;
-        }
     }
     body {
         align-items: center;
