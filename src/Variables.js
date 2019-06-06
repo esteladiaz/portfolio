@@ -1,21 +1,23 @@
-function getIconSize (min, max) {
+const getShapeSize = (min, max) => {
     const dimension = Math.floor(Math.random() * (max - min + 1)) + min;
     return `${dimension}px`
 }
 
-export const size = {
-    icons: {
-        testFunction: getIconSize(40, 90),
-        email: getIconSize(70, 120),
-        github: getIconSize(70, 120),
-        instagram: getIconSize(70, 120),
-        linkedin: getIconSize(40, 90),
-        twitter: getIconSize(70, 120),
-    }
+export const getBackgroundColor = colors => {
+    let keys = Object.keys(colors)
+    let randomBackgroundColor = colors[keys[ keys.length * Math.random() << 0]]
+    return randomBackgroundColor
 }
 
-export const color = {
-    red: '#ff000'
+export const size = {
+    shapes: {
+        shape1: getShapeSize(70, 200),
+        shape2: getShapeSize(70, 200),
+        shape3: getShapeSize(70, 200),
+        shape4: getShapeSize(70, 200),
+        shape5: getShapeSize(70, 200),
+    },
+    icon: '50px'
 }
 
 export default { size }
