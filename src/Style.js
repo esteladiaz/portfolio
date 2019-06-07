@@ -22,18 +22,22 @@ export const colors = {
 const fontStyles = css`
     h1, h2, h3, h4, h5, h6, p, a {
         &:first-child {
-            margin-top: 0;
+            margin: 0;
         }
     }
     h1 {
-        font-size: 3rem;
+        font-size: 6rem;
     }
     h2 {
-        font-size: 2.5rem;
+        font-size: 4.5rem;
         margin-bottom: 0;
     }
+    h3 {
+        font-size: 4rem;
+        margin: 0;
+    }
     p {
-        font-size: 1.5rem;
+        font-size: 3rem;
         font-weight: 300;
     }
 `
