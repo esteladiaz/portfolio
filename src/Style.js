@@ -34,6 +34,7 @@ const fontStyles = css`
     }
     h3 {
         font-size: 4rem;
+        font-weight: 400;
         margin: 0;
     }
     p {
