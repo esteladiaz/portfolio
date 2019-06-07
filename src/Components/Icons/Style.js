@@ -7,4 +7,9 @@ export const Svg = styled.svg`
     float: right;
     height: ${size.icon};
     width: ${size.icon};
+    transition: all ease 350ms;
+
+    &:hover {
+        fill: ${getBackgroundColor(colors)};
+    }
 `
