@@ -3,6 +3,16 @@ const getShapeSize = (min, max) => {
     return `${dimension}px`
 }
 
+export const colors = {
+    schemeRed: '#fc7b7b',
+    schemeOrange: '#fcb47b',
+    schemeYellow: '#fcfc7b',
+    schemeGreen: '#7bfc94',
+    schemeBlue: '#7bc3fc',
+    schemeIndigo: '#7b7bfc',
+    schemeViolet: '#bc7bfc'
+}
+
 export const getBackgroundColor = colors => {
     let keys = Object.keys(colors)
     let randomBackgroundColor = colors[keys[ keys.length * Math.random() << 0]]
