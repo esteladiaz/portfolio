@@ -1,36 +1,18 @@
 import styled, {css} from 'styled-components'
-
-export const colors = {
-    backgroundColor: '#232323',
-    codeColor: '#7bfca5',
-    headerColor: '#000',
-    headerBackgroundColor: '#000',
-    headerHoverColor: '#000',
-    linkColor: '#8c7bfc',
-    linkHoverColor: '#da60f5',
-    linkActive: 'purple',
-    textColor: '#fff',
-    schemeRed: '#fc7b7b',
-    schemeOrange: '#fcb47b',
-    schemeYellow: '#fcfc7b',
-    schemeGreen: '#7bfc94',
-    schemeBlue: '#7bc3fc',
-    schemeIndigo: '#7b7bfc',
-    schemeViolet: '#bc7bfc'
-}
+import { colors, getBackgroundColor } from '../../Variables'
 
 const cometStyle = css`
     position: relative;
     text-decoration: none;
     display: inline-block;
-    color: ${colors.linkColor};
+    color: ${getBackgroundColor(colors)};
     padding: 0 1px;
     transition: color ease 0.3s;
 
     &::before, &::after {
         content: '';
         position: absolute;
-        background-color: ${colors.linkColor};
+        background-color: ${getBackgroundColor(colors)};
         z-index: -1;
         height: 3px;
     }
