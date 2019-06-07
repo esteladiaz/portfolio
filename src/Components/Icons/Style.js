@@ -1,9 +1,10 @@
 import styled from 'styled-components'
-import { colors } from '../../Style'
 import { size } from '../../Variables'
+import { colors, getBackgroundColor } from '../../Variables'
 
 export const Svg = styled.svg`
-    fill: ${colors.linkColor};
+    fill: ${getBackgroundColor(colors)};
+    float: right;
     height: ${size.icon};
     width: ${size.icon};
 `

@@ -68,4 +68,5 @@ const cometStyle = css`
 
 export const LinkWrapper = styled.a`
     ${cometStyle}
+    cursor: pointer;
 `
