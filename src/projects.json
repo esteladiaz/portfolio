@@ -2,43 +2,47 @@
     {
         "name": "Facebook Business Microsites",
         "company": "Facebook",
-        "month": 4,
+        "month": "June",
         "year": 2019,
         "description": "See how I help marketing partners increase their conversions."
     },
     {
         "name": "Themeing with Emotion.Js",
         "company": "Segment",
-        "month": 2,
+        "month": "February",
         "year": 2019,
         "description": "Check out some theme objects we made at Segment.com."
     },
     {
         "name": "Startup Program @ Segment",
         "company": "Segment",
-        "month": 2,
+        "month": "February",
         "year": 2019,
-        "description": "Dynamic migration of 58 pages with a whole new microsite design."
+        "description": "Dynamic migration of 58 pages with a whole new microsite design.",
+        "link": "https://www.facebook.com/business/"
     },
     {
         "name": "Template Page Cloner",
         "company": "Segment",
-        "month": 12,
+        "month": "December",
         "year": 2018,
-        "description": "Internal microsite to create templated pages for Segment.com"
+        "description": "Internal microsite to create templated pages for Segment.com",
+        "link": "https://segment.com/customers"
     },
     {
         "name": "Careers Page Redesign",
         "company": "Segment",
-        "month": 12,
+        "month": "December",
         "year": 2018,
-        "description": "A redesign part of component migration to Segment's CMS."
+        "description": "A redesign part of component migration to Segment's CMS.",
+        "link": "https://segment.com/jobs/"
     },
     {
         "name": "GraphQL + Apollo App",
         "company": "Personal",
-        "month": 2,
+        "month": "April",
         "year": 2019,
-        "description": "Made for a frontend takehome to create a Pokedex."
+        "description": "Made for a frontend takehome to create a Pokedex.",
+        "link": "https://github.com/esteladiaz/pokedex"
     }
 ]
