@@ -15,7 +15,7 @@ const ProjectTile = props => {
             <Description>
                 <h3>{name}</h3>
                 <p>{description}</p>
-                <h4>Date: {month}/{year}</h4>
+                <h4>{month}, {year}</h4>
             </Description>
         </ProjectTileWrapper>
     )
