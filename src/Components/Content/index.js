@@ -20,11 +20,9 @@ export default class Content extends Component {
             console.log(resume, "resume")
             return (
             <ContentWrapper>
-                <h3>See my <JumpLink text="work" emoji="👩🏽‍💻" /></h3>
-                <h3>Download my <Link src={resume} text="resume" emoji="📝" newTab /></h3>
                 <p>I've mostly worked with Marketing or Growth teams for the past few years.</p>
                 <p>It's fun seeing things I've built out in the wild.</p>
-                <h3><Link text={`Check out some of my work below`} emoji="👇🏽" /></h3>
+                <h3>Check out my <Link text={`work`} emoji="👇🏽" /> or download my <Link src={resume} text="resume" emoji="📝" newTab /></h3>
                 <TileWrapper>
                     {this.getProjects(projects)}
                 </TileWrapper>

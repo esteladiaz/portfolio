@@ -6,7 +6,7 @@ export default class Header extends Component {
     render() {
         return (
             <BodyWrapper>
-                <h1>Hi, I'm Estela.</h1>
+                <h1><span role="img" aria-label="wave">👋🏽</span> Hi, I'm Estela.</h1>
                 <Content />
             </BodyWrapper>
         )
